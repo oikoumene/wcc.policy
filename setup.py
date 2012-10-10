@@ -24,6 +24,8 @@ setup(name='wcc.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.multilingual',
+          'plone.multilingualbehavior'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
