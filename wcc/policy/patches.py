@@ -1,4 +1,5 @@
-
+from logging import getLogger
+logger = getLogger('wcc.policy.patches')
 
 def _patch_canonicals_cleanup():
     from plone.multilingual.storage import CanonicalStorage
@@ -6,6 +7,7 @@ def _patch_canonicals_cleanup():
 
     if getattr(CanonicalStorage, '__wcc_canonical_cleanup_patch', False):
         return
+    logger.info('Patching with canonical cleanup patch')
 
     _orig_get_canonicals = CanonicalStorage.get_canonicals
     def get_canonicals(self):
@@ -19,3 +21,22 @@ def _patch_canonicals_cleanup():
     CanonicalStorage.__wcc_canonical_cleanup_patch = True
 
 _patch_canonicals_cleanup()
+
+def _patch_dont_compress_types():
+    from ZPublisher.HTTPResponse import HTTPResponse
+    NO_COMPRESSION_TYPES=['application/x-shockwave-flash']
+
+    if getattr(HTTPResponse, '__inigo_dont_compress_types_patch', False):
+        return 
+    logger.info('Patching with exclude mimetype for compression patch')
+
+    _orig_enableHTTPCompression = HTTPResponse.enableHTTPCompression
+    def enableHTTPCompression(self, *args, **kwargs):
+        if self.headers.get('content-type', '') in NO_COMPRESSION_TYPES:
+            return 0
+        return _orig_enableHTTPCompression(self, *args, **kwargs)
+
+    HTTPResponse.enableHTTPCompression = enableHTTPCompression
+    HTTPResponse.__inigo_dont_compress_types_patch = True
+
+_patch_dont_compress_types()
