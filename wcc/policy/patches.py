@@ -40,3 +40,17 @@ def _patch_dont_compress_types():
     HTTPResponse.__inigo_dont_compress_types_patch = True
 
 _patch_dont_compress_types()
+
+
+def _patch_catalogcontentlisting_titleid():
+    from plone.app.contentlisting.catalog import CatalogContentListingObject
+
+    if getattr(CatalogContentListingObject,'pretty_title_or_id',False):
+        return
+
+    def pretty_title_or_id(self):
+        return self._brain.pretty_title_or_id
+
+    CatalogContentListingObject.pretty_title_or_id = pretty_title_or_id
+
+_patch_catalogcontentlisting_titleid()
