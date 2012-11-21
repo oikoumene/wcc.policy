@@ -26,7 +26,8 @@ setup(name='wcc.policy',
           'setuptools',
           'plone.app.multilingual',
           'plone.multilingualbehavior',
-          'wcc.theme'
+          'wcc.theme',
+          'wcc.common',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
