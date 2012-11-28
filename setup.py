@@ -29,7 +29,6 @@ setup(name='wcc.policy',
           'wcc.theme',
           'wcc.common',
           'wcc.churchbody',
-          'wcc.churchmember'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
