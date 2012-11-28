@@ -28,7 +28,7 @@ setup(name='wcc.policy',
           'plone.multilingualbehavior',
           'wcc.theme',
           'wcc.common',
-          'wcc.churchbody',
+          'wcc.churches',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
