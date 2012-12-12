@@ -25,7 +25,10 @@ setup(name='wcc.policy',
       install_requires=[
           'setuptools',
           'plone.app.multilingual',
-          'plone.multilingualbehavior'
+          'plone.multilingualbehavior',
+          'redturtle.video',
+          'collective.rtvideo.youtube',
+          'collective.rtvideo.vimeo',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
