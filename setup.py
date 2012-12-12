@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.1.dev0'
 
 setup(name='wcc.policy',
       version=version,
@@ -29,6 +29,9 @@ setup(name='wcc.policy',
           'redturtle.video',
           'collective.rtvideo.youtube',
           'collective.rtvideo.vimeo',
+          'wcc.theme',
+          'wcc.common',
+          'wcc.churches'
           # -*- Extra requirements: -*-
       ],
       entry_points="""

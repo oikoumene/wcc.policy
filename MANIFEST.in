@@ -1,4 +1,5 @@
-recursive-include docs *
-recursive-include wcc
+recursive-include wcc *
+include *.txt
 include *.rst
+recursive-include docs *
 global-exclude *pyc
