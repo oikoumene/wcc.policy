@@ -5,7 +5,7 @@ version = '1.1.dev0'
 
 setup(name='wcc.policy',
       version=version,
-      description="",
+      description="WCC site content customizations",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -29,6 +29,7 @@ setup(name='wcc.policy',
           'redturtle.video',
           'collective.rtvideo.youtube',
           'collective.rtvideo.vimeo',
+          'Products.ContentWellPortlets',
           'wcc.theme',
           'wcc.common',
           'wcc.churches'
