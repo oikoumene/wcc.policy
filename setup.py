@@ -33,7 +33,12 @@ setup(name='wcc.policy',
           'wcc.theme',
           'wcc.common',
           'wcc.churches',
-          'eea.facetednavigation'
+          'eea.facetednavigation',
+          'collective.socialbar',
+          'Products.BlingPortlet',
+          'collective.contentleadimage',
+          'Products.RedirectionTool',
+          'wcc.prayercycle'
           # -*- Extra requirements: -*-
       ],
       entry_points="""

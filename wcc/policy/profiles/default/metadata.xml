@@ -11,5 +11,6 @@
         <dependency>profile-collective.socialbar:default</dependency>
         <dependency>profile-Products.RedirectionTool:default</dependency>
         <dependency>profile-eea.facetednavigation:default</dependency>
+        <dependency>profile-wcc.prayercycle:default</dependency>
     </dependencies>
 </metadata>
