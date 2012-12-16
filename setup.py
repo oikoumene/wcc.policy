@@ -32,7 +32,8 @@ setup(name='wcc.policy',
           'Products.ContentWellPortlets',
           'wcc.theme',
           'wcc.common',
-          'wcc.churches'
+          'wcc.churches',
+          'eea.facetednavigation'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
