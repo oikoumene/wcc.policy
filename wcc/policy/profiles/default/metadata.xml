@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<metadata>
+    <version>1003</version>
+    <dependencies>
+        <dependency>profile-wcc.theme:default</dependency>
+        <dependency>profile-wcc.churches:default</dependency>
+        <dependency>profile-Products.BlingPortlet:default</dependency>
+        <dependency>profile-Products.ContentWellPortlets:default</dependency>
+        <dependency>profile-collective.contentleadimage:default</dependency>
+        <dependency>profile-collective.socialbar:default</dependency>
+        <dependency>profile-Products.RedirectionTool:default</dependency>
+    </dependencies>
+</metadata>

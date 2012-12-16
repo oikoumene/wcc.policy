@@ -1,2 +1,32 @@
-<configure xmlns="http://namespaces.zope.org/zope">
+<configure xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="wcc.policy">
+
+    <includeDependencies package="." />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="WCC Policy"
+        directory="profiles/default"
+        description='Policy package for WCC Main Site'
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <genericsetup:importStep
+        name="wcc.policy"
+        title="WCC Policy Import Handler"
+        description=""
+        handler="wcc.policy.setuphandlers.setupVarious"
+        />
+
+    <utility
+        factory=".HiddenProducts"
+        name="wcc.policy.upgrades"
+        />
+
+    <include package=".upgrades"/>
+
 </configure>
