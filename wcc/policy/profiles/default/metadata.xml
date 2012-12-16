@@ -3,6 +3,7 @@
     <version>1003</version>
     <dependencies>
         <dependency>profile-wcc.theme:default</dependency>
+        <dependency>profile-wcc.common:default</dependency>
         <dependency>profile-wcc.churches:default</dependency>
         <dependency>profile-Products.BlingPortlet:default</dependency>
         <dependency>profile-Products.ContentWellPortlets:default</dependency>
