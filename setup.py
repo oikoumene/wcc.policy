@@ -38,7 +38,11 @@ setup(name='wcc.policy',
           'Products.BlingPortlet',
           'collective.contentleadimage',
           'Products.RedirectionTool',
-          'wcc.prayercycle'
+          'wcc.prayercycle',
+          'wcc.featurable',
+          'collective.carousel',
+          'collective.portlet.collectionmultiview',
+          'wcc.carousel',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

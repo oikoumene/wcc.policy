@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <metadata>
-    <version>1003</version>
+    <version>1004</version>
     <dependencies>
         <dependency>profile-wcc.theme:default</dependency>
         <dependency>profile-wcc.common:default</dependency>
@@ -12,5 +12,9 @@
         <dependency>profile-Products.RedirectionTool:default</dependency>
         <dependency>profile-eea.facetednavigation:default</dependency>
         <dependency>profile-wcc.prayercycle:default</dependency>
+        <dependency>profile-wcc.featurable:default</dependency>
+        <dependency>profile-collective.carousel:default</dependency>
+        <dependency>profile-collective.portlet.collectionmultiview:default</dependency>
+        <dependency>profile-wcc.carousel:default</dependency>
     </dependencies>
 </metadata>
