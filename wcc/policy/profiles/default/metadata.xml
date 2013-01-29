@@ -16,5 +16,7 @@
         <dependency>profile-collective.carousel:default</dependency>
         <dependency>profile-collective.portlet.collectionmultiview:default</dependency>
         <dependency>profile-wcc.carousel:default</dependency>
+        <dependency>profile-wcc.weeklynews:default</dependency>
+        <dependency>profile-wcc.activity:default</dependency>
     </dependencies>
 </metadata>

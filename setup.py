@@ -43,6 +43,9 @@ setup(name='wcc.policy',
           'collective.carousel',
           'collective.portlet.collectionmultiview',
           'wcc.carousel',
+          'wcc.weeklynews',
+          'wcc.activity',
+          'wcc.content'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
