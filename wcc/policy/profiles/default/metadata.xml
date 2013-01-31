@@ -18,5 +18,7 @@
         <dependency>profile-wcc.carousel:default</dependency>
         <dependency>profile-wcc.weeklynews:default</dependency>
         <dependency>profile-wcc.activity:default</dependency>
+        <dependency>profile-archetypes.multilingual:default</dependency>
+        <dependency>profile-plone.app.multilingual:default</dependency>
     </dependencies>
 </metadata>
