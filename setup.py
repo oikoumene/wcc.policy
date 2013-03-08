@@ -45,7 +45,8 @@ setup(name='wcc.policy',
           'wcc.carousel',
           'wcc.weeklynews',
           'wcc.activity',
-          'wcc.content'
+          'wcc.content',
+          'wcc.rawhtml',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
