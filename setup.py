@@ -47,6 +47,7 @@ setup(name='wcc.policy',
           'wcc.activity',
           'wcc.content',
           'wcc.rawhtml',
+          'wcc.importer',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
