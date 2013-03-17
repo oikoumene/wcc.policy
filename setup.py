@@ -48,6 +48,7 @@ setup(name='wcc.policy',
           'wcc.content',
           'wcc.rawhtml',
           'wcc.importer',
+          'wcc.audiofile',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
