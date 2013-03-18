@@ -49,6 +49,7 @@ setup(name='wcc.policy',
           'wcc.rawhtml',
           'wcc.importer',
           'wcc.audiofile',
+          'collective.quickupload',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
