@@ -50,6 +50,9 @@ setup(name='wcc.policy',
           'wcc.importer',
           'wcc.audiofile',
           'collective.quickupload',
+          'wcc.document',
+          'wcc.donation',
+          'collective.documentviewer'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
