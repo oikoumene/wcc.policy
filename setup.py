@@ -52,7 +52,8 @@ setup(name='wcc.policy',
           'collective.quickupload',
           'wcc.document',
           'wcc.donation',
-          'collective.documentviewer'
+          'collective.documentviewer',
+          'wcc.multilingual'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
