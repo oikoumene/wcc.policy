@@ -53,7 +53,8 @@ setup(name='wcc.policy',
           'wcc.document',
           'wcc.donation',
           'collective.documentviewer',
-          'wcc.multilingual'
+          'wcc.multilingual',
+          'wcc.homepage'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
