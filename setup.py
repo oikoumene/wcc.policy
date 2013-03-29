@@ -54,7 +54,8 @@ setup(name='wcc.policy',
           'wcc.donation',
           'collective.documentviewer',
           'wcc.multilingual',
-          'wcc.homepage'
+          'wcc.homepage',
+          'wcc.watertheme'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
