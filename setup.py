@@ -56,7 +56,8 @@ setup(name='wcc.policy',
           'wcc.multilingual',
           'wcc.homepage',
           'wcc.watertheme',
-          'wcc.socialportlet'
+          'wcc.socialportlet',
+          'wcc.contactform',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
