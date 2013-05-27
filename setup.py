@@ -58,7 +58,10 @@ setup(name='wcc.policy',
           'wcc.watertheme',
           'wcc.socialportlet',
           'wcc.contactform',
-          'wcc.caching'
+          'wcc.caching',
+          'wcc.jsonapi',
+          'wcc.remotenews',
+          'Products.feedfeeder',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
