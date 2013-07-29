@@ -62,7 +62,8 @@ setup(name='wcc.policy',
           'wcc.jsonapi',
           'wcc.remotenews',
           'Products.feedfeeder',
-          'wcc.search'
+          'wcc.search',
+          'wcc.books',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
