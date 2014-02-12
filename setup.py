@@ -64,6 +64,7 @@ setup(name='wcc.policy',
           'Products.feedfeeder',
           'wcc.search',
           'wcc.books',
+          'wcc.externalscripts',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
