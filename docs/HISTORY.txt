@@ -1,8 +1,8 @@
 Changelog
 =========
 
-  (unreleased)
---------------
+1.17 (2014-04-17)
+-----------------
 
 - Add collective.recaptcha and collective.captchacontactinfo 
 packages to provide support for recaptcha on standard contact-info. 
