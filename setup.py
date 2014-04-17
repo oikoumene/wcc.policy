@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = ' .dev0'
+version = '1.18.dev0'
 
 setup(name='wcc.policy',
       version=version,
