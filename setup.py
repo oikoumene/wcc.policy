@@ -67,6 +67,7 @@ setup(name='wcc.policy',
           'wcc.externalscripts',
           'collective.recaptcha',
           'collective.captchacontactinfo',
+          'wcc.committee',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
