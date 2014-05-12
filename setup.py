@@ -68,6 +68,8 @@ setup(name='wcc.policy',
           'collective.recaptcha',
           'collective.captchacontactinfo',
           'wcc.committee',
+          'collective.plonetruegallery',
+          'collective.ptg.allnewest',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
