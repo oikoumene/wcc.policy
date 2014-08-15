@@ -7,7 +7,6 @@
         <dependency>profile-wcc.churches:default</dependency>
         <dependency>profile-Products.BlingPortlet:default</dependency>
         <dependency>profile-Products.ContentWellPortlets:default</dependency>
-        <dependency>profile-collective.contentleadimage:default</dependency>
         <dependency>profile-collective.socialbar:default</dependency>
         <dependency>profile-Products.RedirectionTool:default</dependency>
         <dependency>profile-eea.facetednavigation:default</dependency>
