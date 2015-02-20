@@ -70,6 +70,7 @@ setup(name='wcc.policy',
           'wcc.committee',
           'collective.plonetruegallery',
           'collective.ptg.allnewest',
+          'wccresponsive.theme',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
