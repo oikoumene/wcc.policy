@@ -71,6 +71,7 @@ setup(name='wcc.policy',
           'collective.plonetruegallery',
           'collective.ptg.allnewest',
           'wccresponsive.theme',
+          'wcc.footer',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
