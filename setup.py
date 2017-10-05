@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.22'
+version = '1.23'
 
 setup(name='wcc.policy',
       version=version,
@@ -72,6 +72,7 @@ setup(name='wcc.policy',
           'collective.ptg.allnewest',
           'wccresponsive.theme',
           'wcc.footer',
+          'Products.PloneKeywordManager',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
