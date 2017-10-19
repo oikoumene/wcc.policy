@@ -30,7 +30,6 @@
     <include package=".upgrades"/>
     
     <browser:jbot
-		  directory="jbot_templates"
-          layer=".interfaces.IProductSpecific"/>
+		  directory="jbot_templates"/>
 
 </configure>
