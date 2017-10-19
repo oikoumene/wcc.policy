@@ -31,6 +31,7 @@
     <include package=".browser"/>
     
     <browser:jbot
-		  directory="jbot_templates"/>
+		  directory="jbot_templates"
+          layer=".interfaces.IProductSpecific"/>
 
 </configure>
