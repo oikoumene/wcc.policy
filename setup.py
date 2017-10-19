@@ -73,6 +73,7 @@ setup(name='wcc.policy',
           'wccresponsive.theme',
           'wcc.footer',
           'Products.PloneKeywordManager',
+          'z3c.jbot',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
