@@ -28,7 +28,6 @@
         />
 
     <include package=".upgrades"/>
-    <include package=".browser"/>
     
     <browser:jbot
 		  directory="jbot_templates"
