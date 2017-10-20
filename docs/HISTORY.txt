@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.25 (unreleased)
+-----------------
+
+- Nothing changed yet.
+
+
 1.24 (2017-10-20)
 -----------------
 - customize old collection table view dates
