@@ -3,7 +3,7 @@
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
  <object name="object" meta_type="CMF Action Category" purge="False">
   <property name="title"></property>
-  <object name="folderContents" meta_type="CMF Action">
+  <object name="folderContents" meta_type="CMF Action" i18n:domain="no.domain">
    <property name="title">Contents</property>
    <property name="description"></property>
    <property
@@ -16,7 +16,7 @@
    </property>
    <property name="visible">True</property>
   </object>
-  <object name="contentrules" meta_type="CMF Action">
+  <object name="contentrules" meta_type="CMF Action" i18n:domain="no.domain">
    <property name="title">Rules</property>
    <property name="description"></property>
    <property
@@ -30,7 +30,7 @@
    </property>
    <property name="visible">True</property>
   </object>
-  <object name="local_roles" meta_type="CMF Action">
+  <object name="local_roles" meta_type="CMF Action" i18n:domain="no.domain">
    <property name="title">Sharing</property>
    <property name="description"></property>
    <property name="url_expr">string:${object_url}/@@sharing</property>
