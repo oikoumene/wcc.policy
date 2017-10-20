@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.24.dev0 (unreleased)
-----------------------
+1.24 (2017-10-20)
+-----------------
 - customize old collection table view dates
 - set edit bar to use English even if browsing other languages
 
