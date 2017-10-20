@@ -15,11 +15,13 @@
                   tal:attributes="id string:contentview-${action/id};
                                   class python:selected and 'selected' or 'plain'">
                 <a href=""
-                   tal:content="action/title"
+                   tal:define="action_title action/title"
+                   tal:content="python: (action['title'].decode())"
                    tal:attributes="href action/url;
                                    target action/link_target|nothing;">
                 View name
                 </a>
+                
               </li>
             </tal:views>
 
