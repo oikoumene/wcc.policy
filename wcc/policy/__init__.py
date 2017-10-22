@@ -1,3 +1,4 @@
+from collective.grok import gs
 from zope.interface import implements
 from Products.CMFQuickInstallerTool.interfaces import INonInstallable
 from zope.i18nmessageid import MessageFactory
