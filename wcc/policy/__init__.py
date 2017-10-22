@@ -15,4 +15,7 @@ class HiddenProducts(object):
             'wcc.policy.upgrades'
         ]
 
-
+gs.profile(name=u'dexterity',
+    title=u'Disable Translations in Edit Bar',
+    description=_(u'Disables translations for action links found in edit bar'),
+    directory='profiles/disable_translation')
