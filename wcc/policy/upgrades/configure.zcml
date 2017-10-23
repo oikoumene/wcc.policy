@@ -2,4 +2,21 @@
   xmlns="http://namespaces.zope.org/zope"
   xmlns:gs="http://namespaces.zope.org/genericsetup">
 
+    <gs:registerProfile
+        name="to1005"
+        title="WCC Policy: Disable Translation in Edit Bar"
+        directory="profiles/to1005"
+        description='Policy that disables action links in edit bar'
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <gs:upgradeStep
+        source="1004"
+        destination="1005"
+        title="WCC Policy: Disable Translation in Edit Bar"
+        description="disable translation of action links in edit bar"
+        profile="wcc.policy:default"
+        handler=".handlers.to1005"
+        sortkey="1"/>
+
 </configure>

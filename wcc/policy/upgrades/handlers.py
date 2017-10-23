@@ -12,11 +12,6 @@ from plone.app.blob.field import ImageField as BlobImageField
 logger = getLogger('wcc.policy.upgrade')
 
 
-
-@gs.upgradestep(title=u'Upgrade wcc.policy to 1005',
-                description=u'disables translation on edit bar',
-                source='1004', destination='1005',
-                sortkey=1, profile='wcc.policy:default')
-def 1005(context):
+def to1005(context):
     setup = getToolByName(context, 'portal_setup')
-    setup.runAllImportStepsFromProfile('profile-wcc.policy.upgrades:1005')
+    setup.runAllImportStepsFromProfile('profile-wcc.policy.upgrades:to1005')
