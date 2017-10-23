@@ -4,17 +4,17 @@
 
     <gs:registerProfile
         name="to1005"
-        title="WCC Policy: Disable Translation in Edit Bar"
+        title="WCC Policy: Add Use English Link"
         directory="profiles/to1005"
-        description='Policy that disables action links in edit bar'
+        description='creates action link in user menu to manually set english language cookie'
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
     <gs:upgradeStep
         source="1004"
         destination="1005"
-        title="WCC Policy: Disable Translation in Edit Bar"
-        description="disable translation of action links in edit bar"
+        title="WCC Policy: Add Use English Link"
+        description="creates action link in user menu to manually set english language cookie"
         profile="wcc.policy:default"
         handler=".handlers.to1005"
         sortkey="1"/>
