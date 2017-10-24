@@ -1,10 +1,10 @@
 Changelog
 =========
 
-1.27 (unreleased)
+1.26.1dev0 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- adjust table width
 
 
 1.26 (2017-10-23)
