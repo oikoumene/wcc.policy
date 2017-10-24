@@ -65,7 +65,7 @@
                               
                              </tal:block>
                             </tal:entry>
-                            <th colspan='2' style='30%'>
+                            <th colspan='2' style='width:30%'>
                              Date Period
                             </th>
                           </tr>
