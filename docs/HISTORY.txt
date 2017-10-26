@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.26.2 (unreleased)
+1.26.2 (2017-10-26)
 -------------------
 
 - jbot template standard_view for plone.app.collection
