@@ -99,10 +99,14 @@
                                                 ">
                             <tal:block define="value python: getattr(obj, field, None)">
 
-                                <td tal:condition="python: field not in ('Title','start','end')"
+                                <td tal:condition="python: field not in ('Title','start','end','CreationDate','EffectiveDate','ExpirationDate','ModificationDate')"
                                     tal:content="python:here.formatCatalogMetadata(value)"
                                     i18n:translate=""/>
-                                
+
+                                <td tal:condition="python: field in ('CreationDate','EffectiveDate','ExpirationDate','ModificationDate')"
+                                        tal:content="python:toLocalizedTime(value)"
+                                    i18n:translate=""/>
+
                                 <td tal:condition="python: field == 'Title'">
                                     <a href="#" tal:attributes="href obj_url;
                                                                 title obj_description;">
@@ -180,10 +184,14 @@
                                                 title_or_id obj/pretty_title_or_id;
                                                 ">
                               <tal:block define="value python: getattr(obj, field, None)">
-                                <td tal:condition="python: field not in ('Title','start','end')"
+                                <td tal:condition="python: field not in ('Title','start','end','CreationDate','EffectiveDate','ExpirationDate','ModificationDate')"
                                     tal:content="python:here.formatCatalogMetadata(value)"
                                     i18n:translate=""/>
-                                
+
+                                <td tal:condition="python: field in ('CreationDate','EffectiveDate','ExpirationDate','ModificationDate')"
+				    tal:content="python:toLocalizedTime(value)"
+				    i18n:translate=""/>
+
                                 <td tal:condition="python: field == 'Title'">
                                     <a href="#" tal:attributes="href obj_url;
                                                                 title obj_description;">
