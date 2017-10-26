@@ -4,14 +4,13 @@ Changelog
 1.26.2 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- jbot template standard_view for plone.app.collection
 
 
 1.26.1 (2017-10-24)
 -------------------
 
 - adjust table width
-- jbot template standard_view for plone.app.collection
 
 
 1.26 (2017-10-23)
