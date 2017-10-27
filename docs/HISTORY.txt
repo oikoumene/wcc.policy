@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.26.3 (unreleased)
+1.26.3 (2017-10-27)
 -------------------
 
 - use wcc date formats for other date type index
