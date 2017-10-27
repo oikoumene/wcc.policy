@@ -4,7 +4,8 @@ Changelog
 1.26.3 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- use wcc date formats for other date type index
+- change date format customization from standard to tabular view
 
 
 1.26.2 (2017-10-26)
