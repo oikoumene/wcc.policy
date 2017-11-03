@@ -115,7 +115,8 @@
                                         item_samedate python: True if item_start == item_end else False;
                                         item_samemonth python: start_month == end_month;
                                         item_sameyear python: start_year == end_year;
-                                        ">
+                                        item_lang context/@@plone_portal_state/language;
+					">
                             <span tal:condition="python: item_samedate">
                                 <span tal:content="python:toLocalizedTime(item_start)">date</span>
                            </span>
