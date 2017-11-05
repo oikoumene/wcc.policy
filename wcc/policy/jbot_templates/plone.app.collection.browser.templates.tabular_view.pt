@@ -48,7 +48,7 @@
                             </tal:if>
                             
                         </tal:entry>
-                        <th colspan='2' style='width:30%'>Date Period</th>
+                        <th colspan='2' style='width:30%' i18n:translate="Dates">Dates</th>
                     </tr>
                     
                 </tal:if>
