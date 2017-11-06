@@ -4,7 +4,7 @@ Changelog
 1.26.4 (unreleased)
 -------------------
 
-- Nothing changed yet.
+- no de after month in Spanish dates if year is not shown
 
 
 1.26.3 (2017-10-27)
