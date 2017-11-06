@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.26.4 (unreleased)
+1.26.4 (2017-11-06)
 -------------------
 
 - no de after month in Spanish dates if year is not shown
